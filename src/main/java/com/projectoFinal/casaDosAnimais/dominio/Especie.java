@@ -12,6 +12,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 
+
+
 @Entity
 public class Especie implements Serializable {
 
@@ -28,7 +30,7 @@ public class Especie implements Serializable {
 	Raca raca;
 	
 	
-
+	
 	@OneToMany( mappedBy="especie")
 	private List<Animal> animais =new ArrayList<>();
 	

@@ -187,8 +187,8 @@ public class CasaDosAnimaisApplication implements CommandLineRunner {
 		TipoMarcacao tpm1= new TipoMarcacao(null,"Consulta Routina");
 		TipoMarcacao tpm2= new TipoMarcacao(null,"Consulta Urgencia");
 		
-		Auxiliar aux1= new Auxiliar(null,"Maria","escrituraria",sdf.parse("04/11/1980 11:32"));
-		Auxiliar aux2= new Auxiliar(null,"Manuela","escrituraria",sdf.parse("10/08/1988 11:00"));		
+		Auxiliar aux1= new Auxiliar(null,"Maria","manulea@casadosAnimais","escrituraria",sdf.parse("04/11/1980 11:32"));
+		Auxiliar aux2= new Auxiliar(null,"Manuela","santo@casadosAnimais","escrituraria",sdf.parse("10/08/1988 11:00"));		
 		
 		Veterinario vet1= new Veterinario(null,"Miguel Santos","miguelsanto@casadosAnimais",2333,"Cirurgia",sdf.parse("19/01/1970 11:00"));
 		
