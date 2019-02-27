@@ -32,7 +32,7 @@ public class AuxiliarDTO implements Serializable {
 		
 	}
 	
-	AuxiliarDTO(Auxiliar aux){
+	public AuxiliarDTO(Auxiliar aux){
 		
 		this.id=aux.getId();
 		this.nome=aux.getNome();

@@ -50,7 +50,7 @@ public class Vacina implements Serializable{
 	}
 
 	public Vacina(Integer id, String descricao, String indicacao, String contraIndicacao, Double valor,
-			Date dataValidade) {
+			Date dataValidade,Veterinario veterinario) {
 		super();
 		this.id = id;
 		this.descricao = descricao;
@@ -58,6 +58,7 @@ public class Vacina implements Serializable{
 		this.contraIndicacao = contraIndicacao;
 		this.valor = valor;
 		this.dataValidade = dataValidade;
+		this.veterinario=veterinario;
 		
 	}
 

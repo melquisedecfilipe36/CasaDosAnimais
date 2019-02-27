@@ -58,6 +58,10 @@ public class ClienteNewDTO implements Serializable {
 	String descricaoEspecie;
 	
 	
+	public ClienteNewDTO() {
+	}
+
+	
 	
 	public String getDescricaoRaca() {
 		return descricaoRaca;
@@ -120,9 +124,7 @@ public class ClienteNewDTO implements Serializable {
 
 	
 
-	public ClienteNewDTO() {
-	}
-
+	
 	public String getNome() {
 		return nome;
 	}

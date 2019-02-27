@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -28,6 +29,7 @@ public class Auxiliar implements Serializable {
 	String nome;
 	String funcao;
 	
+	@Column(unique=true)
 	String email;
 	
 	@Temporal(TemporalType.DATE)
@@ -52,7 +54,7 @@ public class Auxiliar implements Serializable {
 	
 	
 	
-	public Auxiliar(Integer id, String nome, String funcao, String email, Date dataNascimento) {
+	public Auxiliar(Integer id, String nome, String email, String funcao, Date dataNascimento) {
 		super();
 		this.id = id;
 		this.nome = nome;

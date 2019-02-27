@@ -37,7 +37,7 @@ public class VeterinarioDTO implements Serializable{
 		
 	}
 	
-	VeterinarioDTO(Veterinario vet){
+	public VeterinarioDTO(Veterinario vet){
 		
 		this.id=vet.getId();
 		this.email=vet.getEmail();
